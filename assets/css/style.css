@@ -13,7 +13,7 @@ nav {
     padding: 20px;
     display: block;
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
 }
@@ -62,6 +62,8 @@ section h2 {
     float: left;
     /* padding-left: 25px; */
     display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 section p {
@@ -92,7 +94,7 @@ aside h2 {
 }
 
 #first_work {
-    background-image: url("../images/placeholder.jpg");
+    width: 70%;
 }
 
 #other_work {
