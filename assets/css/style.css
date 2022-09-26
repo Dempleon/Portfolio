@@ -54,14 +54,13 @@ nav li {
 section {
     display: flex;
     width: 100%;
-    justify-content: center;
 }
 
 section h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     float: left;
-    padding-left: 25px;
+    /* padding-left: 25px; */
     display: flex;
 }
 
@@ -75,19 +74,21 @@ section p {
 
 section div {
     float: right;
-    width: 70%;
+    width: 80%;
 }
 
 aside {
     display: flex;
-    float: left;
+    /* float: left; */
     background-color: rgb(3, 68, 124);
     height: 100%;
     width: 15%;
-    
+    justify-content: center;
 }
 aside h2 {
     padding-top: 100px;
+    /* justify-items: center; */
+    justify-content: center;
 }
 
 #first_work {
