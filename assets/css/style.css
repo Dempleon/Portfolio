@@ -83,3 +83,37 @@ section {
     background-position: center;
     
 }
+
+div a {
+    width: 33%;
+    display: inline;
+    flex-direction: column;
+}
+
+div p {
+    width: 80%;
+    justify-content: center;
+}
+
+.first_project {
+    border: 3px solid black;
+    width: 70%;
+}
+
+.project {
+    border: 3px solid black;
+    max-width: 40%;
+    margin: 10px;
+}
+
+.projects_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div img {
+    max-width: 100;
+    /* width: auto; */
+    height: auto;
+}
