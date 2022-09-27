@@ -105,6 +105,8 @@ section {
     width: auto;
     border-radius: 35px;
     max-height: 350px;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
 }
 .about {
     align-content: center;
@@ -113,6 +115,12 @@ section {
     color: white;
     /* width: 65%; */
 }
+
+.about p {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
 div a {
     text-decoration: none;
 }
@@ -185,9 +193,19 @@ div h3 {
 }
 
 .contact {
-    font-size: 5vw;
+    font-size: 3vw;
     color: aliceblue;
     text-decoration: none;
+    text-align: center;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.contact a {
+    color: white;
+}
+.contact a:hover {
+    color: blueviolet;
 }
 
 
