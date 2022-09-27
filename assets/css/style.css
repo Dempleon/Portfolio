@@ -35,6 +35,7 @@ nav a {
     text-decoration: none;
 }
 
+/* nav buttons on the right of top header */
 nav li {
     list-style-type: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -68,6 +69,7 @@ nav a:hover {
     width: 100%;
 }
 
+/* place section headers in middle */
 h2 {
     margin-left: auto;
     margin-right: auto;
@@ -176,8 +178,8 @@ div h3 {
 .project:hover {
     box-shadow: inset 0px 0px 8px #fff, 0 0 15px #fff;
 }
-/* I want the images to completely cover the entire div area */
 
+/* I want the images to completely cover the entire div area */
 #project2 {
     background: url("../images/tictacto.png") center no-repeat;
 }
@@ -200,6 +202,7 @@ div h3 {
     margin-bottom: 4vw;
 }
 
+/* change anchor color when mouse hovers over it */
 .contact a {
     color: white;
 }
@@ -207,14 +210,14 @@ div h3 {
     color: blueviolet;
 }
 
-
+/* prevent text from looking too big on biger creens */
 @media screen and (max-width: 5000px){
     .about {
         font-size: 2vw;
     }
 }
 
-
+/* paragraph looks bigger when screen is narrower */
 @media screen and (max-width: 768px){
     header {
         text-align: center;
