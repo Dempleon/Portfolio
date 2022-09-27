@@ -117,8 +117,7 @@ section {
 }
 
 .about p {
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin: 4vw;
 }
 
 div a {
@@ -209,6 +208,13 @@ div h3 {
 }
 
 
+@media screen and (max-width: 5000px){
+    .about {
+        font-size: 2vw;
+    }
+}
+
+
 @media screen and (max-width: 768px){
     header {
         text-align: center;
@@ -216,4 +222,8 @@ div h3 {
     .project {
         width: 80%;
     }
+    .about {
+        font-size: 3vw;
+    }
 }
+
