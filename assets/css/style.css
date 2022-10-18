@@ -148,7 +148,7 @@ div h3 {
     margin-top: 60px;
     margin-bottom: 20px;
     overflow: hidden;
-    background: url("../images/sudoku-solver-using-excel.gif") center no-repeat;
+    background: url("../images/homr-home-page.JPG") center no-repeat;
     background-size: 100% 100%;
 }
 .first_project:hover {
@@ -190,6 +190,10 @@ div h3 {
     background: url("../images/calculator.jpg") center no-repeat;
 }
 #project5 {
+    background: url("../images/sudoku-solver-using-excel.gif") center no-repeat;
+
+}
+#project6 {
     background: url("../images/in_progress.png") center no-repeat;
 }
 
